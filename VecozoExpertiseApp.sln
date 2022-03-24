@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VecozoExpertiseApp", "VecozoExpertiseApp\VecozoExpertiseApp.csproj", "{C29EDB1D-5CAC-4B60-A66A-81A240549A34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6199F021-FF00-4C6A-8E83-F25F8B0D8154} = {6199F021-FF00-4C6A-8E83-F25F8B0D8154}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VECOZO_CLASSLIBRARY", "VECOZO_CLASSLIBRARY\VECOZO_CLASSLIBRARY.csproj", "{6199F021-FF00-4C6A-8E83-F25F8B0D8154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29EDB1D-5CAC-4B60-A66A-81A240549A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29EDB1D-5CAC-4B60-A66A-81A240549A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29EDB1D-5CAC-4B60-A66A-81A240549A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29EDB1D-5CAC-4B60-A66A-81A240549A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6199F021-FF00-4C6A-8E83-F25F8B0D8154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6199F021-FF00-4C6A-8E83-F25F8B0D8154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6199F021-FF00-4C6A-8E83-F25F8B0D8154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6199F021-FF00-4C6A-8E83-F25F8B0D8154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84C9D4A1-CFA9-4892-9C30-0C00ADCDB004}
+	EndGlobalSection
+EndGlobal
