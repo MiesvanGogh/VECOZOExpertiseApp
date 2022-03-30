@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Persoon1 = new System.Windows.Forms.PictureBox();
             this.Mederwerker = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.Persoon3 = new System.Windows.Forms.PictureBox();
+            this.Persoon5 = new System.Windows.Forms.PictureBox();
+            this.Persoon7 = new System.Windows.Forms.PictureBox();
+            this.Persoon2 = new System.Windows.Forms.PictureBox();
+            this.Persoon4 = new System.Windows.Forms.PictureBox();
+            this.Persoon6 = new System.Windows.Forms.PictureBox();
+            this.Persoon8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,25 +49,32 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnBack = new System.Windows.Forms.Button();
-            this.LbRol = new System.Windows.Forms.Label();
-            this.LbNaam = new System.Windows.Forms.Label();
+            this.LbFunctie = new System.Windows.Forms.Label();
+            this.lbNaam1 = new System.Windows.Forms.Label();
             this.GBMedewerker = new System.Windows.Forms.GroupBox();
+            this.LBVaardigheid = new System.Windows.Forms.Label();
             this.LbRating = new System.Windows.Forms.Label();
             this.LbPers = new System.Windows.Forms.Label();
-            this.LbVaardigheid = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.lbNaam2 = new System.Windows.Forms.Label();
+            this.lbNaam4 = new System.Windows.Forms.Label();
+            this.lbNaam3 = new System.Windows.Forms.Label();
+            this.lbNaam6 = new System.Windows.Forms.Label();
+            this.lbNaam5 = new System.Windows.Forms.Label();
+            this.lbNaam8 = new System.Windows.Forms.Label();
+            this.lbNaam7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -85,19 +92,19 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // Persoon1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox2.Location = new System.Drawing.Point(222, 233);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.Persoon1.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon1.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon1.Location = new System.Drawing.Point(222, 233);
+            this.Persoon1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon1.Name = "Persoon1";
+            this.Persoon1.Size = new System.Drawing.Size(50, 56);
+            this.Persoon1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon1.TabIndex = 4;
+            this.Persoon1.TabStop = false;
+            this.Persoon1.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
             // Mederwerker
             // 
@@ -120,89 +127,103 @@
             this.textBox1.Size = new System.Drawing.Size(185, 27);
             this.textBox1.TabIndex = 6;
             // 
-            // pictureBox3
+            // Persoon3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox3.Location = new System.Drawing.Point(222, 336);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            this.Persoon3.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon3.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon3.Location = new System.Drawing.Point(222, 336);
+            this.Persoon3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon3.Name = "Persoon3";
+            this.Persoon3.Size = new System.Drawing.Size(50, 56);
+            this.Persoon3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon3.TabIndex = 7;
+            this.Persoon3.TabStop = false;
+            this.Persoon3.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox4
+            // Persoon5
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox4.Location = new System.Drawing.Point(222, 432);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
+            this.Persoon5.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon5.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon5.Location = new System.Drawing.Point(222, 432);
+            this.Persoon5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon5.Name = "Persoon5";
+            this.Persoon5.Size = new System.Drawing.Size(50, 56);
+            this.Persoon5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon5.TabIndex = 8;
+            this.Persoon5.TabStop = false;
+            this.Persoon5.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox5
+            // Persoon7
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox5.Location = new System.Drawing.Point(222, 531);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            this.Persoon7.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon7.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon7.Location = new System.Drawing.Point(222, 531);
+            this.Persoon7.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon7.Name = "Persoon7";
+            this.Persoon7.Size = new System.Drawing.Size(50, 56);
+            this.Persoon7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon7.TabIndex = 9;
+            this.Persoon7.TabStop = false;
+            this.Persoon7.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox6
+            // Persoon2
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox6.Location = new System.Drawing.Point(425, 233);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
+            this.Persoon2.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon2.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon2.Location = new System.Drawing.Point(425, 233);
+            this.Persoon2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon2.Name = "Persoon2";
+            this.Persoon2.Size = new System.Drawing.Size(50, 56);
+            this.Persoon2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon2.TabIndex = 10;
+            this.Persoon2.TabStop = false;
+            this.Persoon2.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox7
+            // Persoon4
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox7.Location = new System.Drawing.Point(425, 336);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
+            this.Persoon4.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon4.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon4.Location = new System.Drawing.Point(425, 336);
+            this.Persoon4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon4.Name = "Persoon4";
+            this.Persoon4.Size = new System.Drawing.Size(50, 56);
+            this.Persoon4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon4.TabIndex = 11;
+            this.Persoon4.TabStop = false;
+            this.Persoon4.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox8
+            // Persoon6
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox8.Location = new System.Drawing.Point(425, 432);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 12;
-            this.pictureBox8.TabStop = false;
+            this.Persoon6.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon6.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon6.Location = new System.Drawing.Point(425, 432);
+            this.Persoon6.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon6.Name = "Persoon6";
+            this.Persoon6.Size = new System.Drawing.Size(50, 56);
+            this.Persoon6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon6.TabIndex = 12;
+            this.Persoon6.TabStop = false;
+            this.Persoon6.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
-            // pictureBox9
+            // Persoon8
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
-            this.pictureBox9.Location = new System.Drawing.Point(425, 531);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 56);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 13;
-            this.pictureBox9.TabStop = false;
+            this.Persoon8.BackColor = System.Drawing.Color.Transparent;
+            this.Persoon8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Persoon8.Image = global::VecozoExpertiseApp.Properties.Resources.Sample_User_Icon;
+            this.Persoon8.Location = new System.Drawing.Point(425, 531);
+            this.Persoon8.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Persoon8.Name = "Persoon8";
+            this.Persoon8.Size = new System.Drawing.Size(50, 56);
+            this.Persoon8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Persoon8.TabIndex = 13;
+            this.Persoon8.TabStop = false;
+            this.Persoon8.Click += new System.EventHandler(this.OnPicureboxClick);
             // 
             // pictureBox10
             // 
@@ -222,7 +243,7 @@
             this.pictureBox11.Location = new System.Drawing.Point(26, 47);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(153, 153);
+            this.pictureBox11.Size = new System.Drawing.Size(153, 189);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 15;
             this.pictureBox11.TabStop = false;
@@ -314,81 +335,81 @@
             this.BtnBack.UseVisualStyleBackColor = true;
             this.BtnBack.Click += new System.EventHandler(this.button2_Click);
             // 
-            // LbRol
+            // LbFunctie
             // 
-            this.LbRol.AutoSize = true;
-            this.LbRol.Location = new System.Drawing.Point(134, 127);
-            this.LbRol.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LbRol.Name = "LbRol";
-            this.LbRol.Size = new System.Drawing.Size(31, 20);
-            this.LbRol.TabIndex = 53;
-            this.LbRol.Text = "Rol";
+            this.LbFunctie.AutoSize = true;
+            this.LbFunctie.Location = new System.Drawing.Point(134, 163);
+            this.LbFunctie.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.LbFunctie.Name = "LbFunctie";
+            this.LbFunctie.Size = new System.Drawing.Size(56, 20);
+            this.LbFunctie.TabIndex = 53;
+            this.LbFunctie.Text = "Functie";
             // 
-            // LbNaam
+            // lbNaam1
             // 
-            this.LbNaam.AutoSize = true;
-            this.LbNaam.Location = new System.Drawing.Point(280, 253);
-            this.LbNaam.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LbNaam.Name = "LbNaam";
-            this.LbNaam.Size = new System.Drawing.Size(49, 20);
-            this.LbNaam.TabIndex = 54;
-            this.LbNaam.Text = "Naam";
-            this.LbNaam.Click += new System.EventHandler(this.LbNaam_Click);
+            this.lbNaam1.AutoSize = true;
+            this.lbNaam1.Location = new System.Drawing.Point(280, 253);
+            this.lbNaam1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam1.Name = "lbNaam1";
+            this.lbNaam1.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam1.TabIndex = 54;
+            this.lbNaam1.Text = "Naam";
+            this.lbNaam1.Click += new System.EventHandler(this.LbNaam_Click);
             // 
             // GBMedewerker
             // 
+            this.GBMedewerker.Controls.Add(this.LBVaardigheid);
             this.GBMedewerker.Controls.Add(this.LbRating);
             this.GBMedewerker.Controls.Add(this.LbPers);
-            this.GBMedewerker.Controls.Add(this.LbVaardigheid);
             this.GBMedewerker.Controls.Add(this.label8);
             this.GBMedewerker.Controls.Add(this.label7);
             this.GBMedewerker.Controls.Add(this.label6);
             this.GBMedewerker.Controls.Add(this.label5);
-            this.GBMedewerker.Controls.Add(this.LbRol);
-            this.GBMedewerker.Location = new System.Drawing.Point(709, 233);
+            this.GBMedewerker.Controls.Add(this.LbFunctie);
+            this.GBMedewerker.Location = new System.Drawing.Point(704, 233);
             this.GBMedewerker.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.GBMedewerker.Name = "GBMedewerker";
             this.GBMedewerker.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.GBMedewerker.Size = new System.Drawing.Size(286, 277);
+            this.GBMedewerker.Size = new System.Drawing.Size(331, 284);
             this.GBMedewerker.TabIndex = 55;
             this.GBMedewerker.TabStop = false;
             this.GBMedewerker.Text = "Info Medewerker:";
             this.GBMedewerker.Visible = false;
             // 
+            // LBVaardigheid
+            // 
+            this.LBVaardigheid.AutoSize = true;
+            this.LBVaardigheid.Location = new System.Drawing.Point(107, 36);
+            this.LBVaardigheid.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.LBVaardigheid.Name = "LBVaardigheid";
+            this.LBVaardigheid.Size = new System.Drawing.Size(37, 20);
+            this.LBVaardigheid.TabIndex = 61;
+            this.LBVaardigheid.Text = "       ";
+            // 
             // LbRating
             // 
             this.LbRating.AutoSize = true;
-            this.LbRating.Location = new System.Drawing.Point(137, 77);
+            this.LbRating.Location = new System.Drawing.Point(137, 124);
             this.LbRating.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LbRating.Name = "LbRating";
-            this.LbRating.Size = new System.Drawing.Size(52, 20);
+            this.LbRating.Size = new System.Drawing.Size(45, 20);
             this.LbRating.TabIndex = 60;
-            this.LbRating.Text = "Rating";
+            this.LbRating.Text = "         ";
             // 
             // LbPers
             // 
             this.LbPers.AutoSize = true;
-            this.LbPers.Location = new System.Drawing.Point(134, 169);
+            this.LbPers.Location = new System.Drawing.Point(134, 199);
             this.LbPers.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LbPers.Name = "LbPers";
             this.LbPers.Size = new System.Drawing.Size(121, 20);
             this.LbPers.TabIndex = 59;
             this.LbPers.Text = "Persoonlijkheden";
             // 
-            // LbVaardigheid
-            // 
-            this.LbVaardigheid.AutoSize = true;
-            this.LbVaardigheid.Location = new System.Drawing.Point(134, 36);
-            this.LbVaardigheid.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LbVaardigheid.Name = "LbVaardigheid";
-            this.LbVaardigheid.Size = new System.Drawing.Size(89, 20);
-            this.LbVaardigheid.TabIndex = 58;
-            this.LbVaardigheid.Text = "Vaardigheid";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 169);
+            this.label8.Location = new System.Drawing.Point(6, 199);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(124, 20);
@@ -398,7 +419,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(41, 36);
+            this.label7.Location = new System.Drawing.Point(11, 36);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(92, 20);
@@ -408,7 +429,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(74, 77);
+            this.label6.Location = new System.Drawing.Point(48, 63);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 20);
@@ -418,20 +439,97 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(90, 127);
+            this.label5.Location = new System.Drawing.Point(70, 163);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 20);
+            this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 54;
-            this.label5.Text = "Rol:";
+            this.label5.Text = "Functie:";
+            // 
+            // lbNaam2
+            // 
+            this.lbNaam2.AutoSize = true;
+            this.lbNaam2.Location = new System.Drawing.Point(498, 253);
+            this.lbNaam2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam2.Name = "lbNaam2";
+            this.lbNaam2.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam2.TabIndex = 56;
+            this.lbNaam2.Text = "Naam";
+            // 
+            // lbNaam4
+            // 
+            this.lbNaam4.AutoSize = true;
+            this.lbNaam4.Location = new System.Drawing.Point(498, 356);
+            this.lbNaam4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam4.Name = "lbNaam4";
+            this.lbNaam4.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam4.TabIndex = 58;
+            this.lbNaam4.Text = "Naam";
+            // 
+            // lbNaam3
+            // 
+            this.lbNaam3.AutoSize = true;
+            this.lbNaam3.Location = new System.Drawing.Point(280, 356);
+            this.lbNaam3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam3.Name = "lbNaam3";
+            this.lbNaam3.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam3.TabIndex = 57;
+            this.lbNaam3.Text = "Naam";
+            // 
+            // lbNaam6
+            // 
+            this.lbNaam6.AutoSize = true;
+            this.lbNaam6.Location = new System.Drawing.Point(498, 452);
+            this.lbNaam6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam6.Name = "lbNaam6";
+            this.lbNaam6.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam6.TabIndex = 60;
+            this.lbNaam6.Text = "Naam";
+            // 
+            // lbNaam5
+            // 
+            this.lbNaam5.AutoSize = true;
+            this.lbNaam5.Location = new System.Drawing.Point(280, 452);
+            this.lbNaam5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam5.Name = "lbNaam5";
+            this.lbNaam5.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam5.TabIndex = 59;
+            this.lbNaam5.Text = "Naam";
+            // 
+            // lbNaam8
+            // 
+            this.lbNaam8.AutoSize = true;
+            this.lbNaam8.Location = new System.Drawing.Point(498, 553);
+            this.lbNaam8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam8.Name = "lbNaam8";
+            this.lbNaam8.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam8.TabIndex = 62;
+            this.lbNaam8.Text = "Naam";
+            // 
+            // lbNaam7
+            // 
+            this.lbNaam7.AutoSize = true;
+            this.lbNaam7.Location = new System.Drawing.Point(280, 553);
+            this.lbNaam7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbNaam7.Name = "lbNaam7";
+            this.lbNaam7.Size = new System.Drawing.Size(49, 20);
+            this.lbNaam7.TabIndex = 61;
+            this.lbNaam7.Text = "Naam";
             // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1066, 692);
+            this.Controls.Add(this.lbNaam8);
+            this.Controls.Add(this.lbNaam7);
+            this.Controls.Add(this.lbNaam6);
+            this.Controls.Add(this.lbNaam5);
+            this.Controls.Add(this.lbNaam4);
+            this.Controls.Add(this.lbNaam3);
+            this.Controls.Add(this.lbNaam2);
             this.Controls.Add(this.GBMedewerker);
-            this.Controls.Add(this.LbNaam);
+            this.Controls.Add(this.lbNaam1);
             this.Controls.Add(this.BtnBack);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox13);
@@ -441,30 +539,30 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.Persoon8);
+            this.Controls.Add(this.Persoon6);
+            this.Controls.Add(this.Persoon4);
+            this.Controls.Add(this.Persoon2);
+            this.Controls.Add(this.Persoon7);
+            this.Controls.Add(this.Persoon5);
+            this.Controls.Add(this.Persoon3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Mederwerker);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.Persoon1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Manager";
             this.Text = "Manager";
             this.Load += new System.EventHandler(this.Manager_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Persoon8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -479,16 +577,16 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox Persoon1;
         private System.Windows.Forms.Label Mederwerker;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox Persoon3;
+        private System.Windows.Forms.PictureBox Persoon5;
+        private System.Windows.Forms.PictureBox Persoon7;
+        private System.Windows.Forms.PictureBox Persoon2;
+        private System.Windows.Forms.PictureBox Persoon4;
+        private System.Windows.Forms.PictureBox Persoon6;
+        private System.Windows.Forms.PictureBox Persoon8;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label1;
@@ -498,15 +596,22 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtnBack;
-        private System.Windows.Forms.Label LbRol;
-        private System.Windows.Forms.Label LbNaam;
+        private System.Windows.Forms.Label LbFunctie;
+        private System.Windows.Forms.Label lbNaam1;
         private System.Windows.Forms.GroupBox GBMedewerker;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label LbVaardigheid;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label LbPers;
         private System.Windows.Forms.Label LbRating;
+        private Label LBVaardigheid;
+        private Label lbNaam2;
+        private Label lbNaam4;
+        private Label lbNaam3;
+        private Label lbNaam6;
+        private Label lbNaam5;
+        private Label lbNaam8;
+        private Label lbNaam7;
     }
 }
