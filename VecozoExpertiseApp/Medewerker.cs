@@ -44,7 +44,6 @@ namespace VecozoExpertiseApp
 
         private void BtnOpslaan_Click(object sender, EventArgs e)
         {
-
             Functie fr = new();
             object obj = BoxFunctie.SelectedItem;  //Bewaart welk object geselecteerd is
             Functie geselect = (Functie)obj; //Je maakt het object een groep
