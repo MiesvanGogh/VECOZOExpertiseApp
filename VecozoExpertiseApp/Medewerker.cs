@@ -66,7 +66,7 @@ namespace VecozoExpertiseApp
         }
         private void Medewerker_Load(object sender, EventArgs e)
         {
-
+             
         }
     }
 }
